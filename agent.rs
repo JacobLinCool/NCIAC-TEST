@@ -18,7 +18,8 @@ fn main() {
 
     // eprintln!("{:?} {} {}", board, stone, time);
     
-    println!("{} {}", 0, 0);
+    println!("{} {}", -1, -1);
+    return;
 
     let (x, y) = run(board, stone, time);
     println!("{} {}", x, y);
