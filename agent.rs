@@ -17,6 +17,8 @@ fn main() {
     time = splits.next().unwrap().parse::<f64>().unwrap();
 
     // eprintln!("{:?} {} {}", board, stone, time);
+    
+    println!("{} {}", 0, 0);
 
     let (x, y) = run(board, stone, time);
     println!("{} {}", x, y);
